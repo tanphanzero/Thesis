@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<launch>
+  <machine name="raspberry" address="192.168.137.123" user="ubuntu" password="ubuntu" />
+
+  <node name="driver_mpu9250" pkg="driver_mpu9250" type="driver_mpu9250_rpi" machine="raspberry" output="screen" >
+  <param name="interrupt_gpio_pin" value="4"/>
+  </node>
+
+</launch>

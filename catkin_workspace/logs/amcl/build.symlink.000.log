@@ -1,0 +1,14 @@
+Symlinking /home/tranhieu/catkin_workspace/devel/include/amcl/AMCLConfig.h
+Symlinking /home/tranhieu/catkin_workspace/devel/lib/libamcl_sensors.so
+Symlinking /home/tranhieu/catkin_workspace/devel/lib/libamcl_pf.so
+Symlinking /home/tranhieu/catkin_workspace/devel/lib/libamcl_map.so
+Symlinking /home/tranhieu/catkin_workspace/devel/lib/amcl/amcl
+Symlinking /home/tranhieu/catkin_workspace/devel/lib/python3/dist-packages/amcl/__init__.py
+Symlinking /home/tranhieu/catkin_workspace/devel/lib/python3/dist-packages/amcl/cfg/__init__.py
+Symlinking /home/tranhieu/catkin_workspace/devel/lib/python3/dist-packages/amcl/cfg/AMCLConfig.py
+Symlinking /home/tranhieu/catkin_workspace/devel/lib/pkgconfig/amcl.pc
+Symlinking /home/tranhieu/catkin_workspace/devel/share/amcl/docs/AMCLConfig-usage.dox
+Symlinking /home/tranhieu/catkin_workspace/devel/share/amcl/docs/AMCLConfig.wikidoc
+Symlinking /home/tranhieu/catkin_workspace/devel/share/amcl/docs/AMCLConfig.dox
+Symlinking /home/tranhieu/catkin_workspace/devel/share/amcl/cmake/amclConfig.cmake
+Symlinking /home/tranhieu/catkin_workspace/devel/share/amcl/cmake/amclConfig-version.cmake

@@ -1,0 +1,11 @@
+Symlinking /home/tranhieu/catkin_workspace/devel/include/dwa_local_planner/DWAPlannerConfig.h
+Symlinking /home/tranhieu/catkin_workspace/devel/lib/libdwa_local_planner.so
+Symlinking /home/tranhieu/catkin_workspace/devel/lib/python3/dist-packages/dwa_local_planner/__init__.py
+Symlinking /home/tranhieu/catkin_workspace/devel/lib/python3/dist-packages/dwa_local_planner/cfg/__init__.py
+Symlinking /home/tranhieu/catkin_workspace/devel/lib/python3/dist-packages/dwa_local_planner/cfg/DWAPlannerConfig.py
+Symlinking /home/tranhieu/catkin_workspace/devel/lib/pkgconfig/dwa_local_planner.pc
+Symlinking /home/tranhieu/catkin_workspace/devel/share/dwa_local_planner/docs/DWAPlannerConfig.dox
+Symlinking /home/tranhieu/catkin_workspace/devel/share/dwa_local_planner/docs/DWAPlannerConfig-usage.dox
+Symlinking /home/tranhieu/catkin_workspace/devel/share/dwa_local_planner/docs/DWAPlannerConfig.wikidoc
+Symlinking /home/tranhieu/catkin_workspace/devel/share/dwa_local_planner/cmake/dwa_local_plannerConfig-version.cmake
+Symlinking /home/tranhieu/catkin_workspace/devel/share/dwa_local_planner/cmake/dwa_local_plannerConfig.cmake

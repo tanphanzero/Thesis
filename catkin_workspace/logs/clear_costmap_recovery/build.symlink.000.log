@@ -1,0 +1,4 @@
+Symlinking /home/tranhieu/catkin_workspace/devel/lib/libclear_costmap_recovery.so
+Symlinking /home/tranhieu/catkin_workspace/devel/lib/pkgconfig/clear_costmap_recovery.pc
+Symlinking /home/tranhieu/catkin_workspace/devel/share/clear_costmap_recovery/cmake/clear_costmap_recoveryConfig.cmake
+Symlinking /home/tranhieu/catkin_workspace/devel/share/clear_costmap_recovery/cmake/clear_costmap_recoveryConfig-version.cmake

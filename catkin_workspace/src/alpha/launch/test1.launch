@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<launch >
+ <machine name="tanphan" address="192.168.137.57" env-loader="/home/tanphan/catkin_stm32_ws/devel/host_env.sh" default="true"/>
+ <machine name="ubuntu" address="192.168.137.123" env-loader="/home/ubuntu/catkin_ws/devel/slave_env.sh" default="true"/>
+ <node machine="tanphan" name="serial_node" pkg="rosserial_python" type="serial_node.py">
+   <param name="port" value="/dev/ttyUSB0"/>
+   <param name="baud" value="57600"/>  
+ </node>
+
+ <node machine="ubuntu" name="driver_mpu9250" pkg="driver_mpu9250" type="driver_mpu9250_rpi">
+   <param name="_interrupt_gpio_pin" value="4"/>  
+ </node>
+</launch>

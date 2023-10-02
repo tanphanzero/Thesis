@@ -1,0 +1,2 @@
+driver_mpu9250:imu:imu_complementary_filter:robot:ros-sensor_msgs_ext:rosserial_python:rosserial_stm32
+-DCATKIN_DEVEL_PREFIX=/home/ubuntu/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu/catkin_ws/install -G Unix Makefiles

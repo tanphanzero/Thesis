@@ -1,0 +1,4 @@
+Symlinking /home/tranhieu/catkin_workspace/devel/lib/librviz_satellite.so
+Symlinking /home/tranhieu/catkin_workspace/devel/lib/pkgconfig/rviz_satellite.pc
+Symlinking /home/tranhieu/catkin_workspace/devel/share/rviz_satellite/cmake/rviz_satelliteConfig.cmake
+Symlinking /home/tranhieu/catkin_workspace/devel/share/rviz_satellite/cmake/rviz_satelliteConfig-version.cmake

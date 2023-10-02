@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/catkin_test/devel
+
+Name: my_message
+Description: Description of my_message
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

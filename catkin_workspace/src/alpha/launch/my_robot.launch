@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<launch>
+ <param name="robot_description" command="$(find xacro)/xacro '$(find alpha)/xacro/alpha.xacro'"/>
+
+
+ <node name="odom" pkg="alpha" type="odom2.py"/>
+ <!--node name="test" pkg="alpha" type="test.py"/-->
+ <node name="rviz" pkg="rviz" type="rviz" args="-d $(find alpha)/rviz/alpha_config.rviz" required="true"/>
+
+ <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher"/>
+ <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"
+	respawn="false" output="screen">
+ </node>
+ <include file="$(find alpha)/launch/map.launch"/>
+ <include file="$(find robot_localization)/launch/dual_ekf_navsat.launch"/>
+ <!--include file="$(find my_robot)/launch/my_movebase.launch"/-->
+</launch>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<launch>
+  <node pkg="driver_mpu9250" type="driver_mpu9250_rpi" 
+        name="driver_mpu9250" output="screen">
+  <param name="interrupt_gpio_pin" value="4"/>
+  </node>
+
+  <node pkg="imu_complementary_filter" type="complementary_filter_node"
+        name="imu_complementary_filter" output="screen">
+    <param name="do_bias_estimation" value="true"/>
+    <param name="do_adaptive_gain" value="true"/>
+    <param name="use_mag" value="false"/>
+    <param name="publish_debug_topics" value="true"/>
+    <param name="publish_tf" value="false"/>
+    <param name="gain_acc" value="0.01"/>
+    <param name="gain_mag" value="0.01"/>
+    <param name="bias_alpha" value="0.01"/>
+  </node>
+ <include file="$(find robot)/launch/serial.launch"/>
+</launch>

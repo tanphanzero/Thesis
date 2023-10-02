@@ -1,0 +1,8 @@
+prefix=/home/tranhieu/catkin_workspace/devel/.private/rviz_satellite
+
+Name: rviz_satellite
+Description: Description of rviz_satellite
+Version: 3.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp rviz sensor_msgs tf2

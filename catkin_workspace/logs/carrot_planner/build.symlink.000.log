@@ -1,0 +1,4 @@
+Symlinking /home/tranhieu/catkin_workspace/devel/lib/libcarrot_planner.so
+Symlinking /home/tranhieu/catkin_workspace/devel/lib/pkgconfig/carrot_planner.pc
+Symlinking /home/tranhieu/catkin_workspace/devel/share/carrot_planner/cmake/carrot_plannerConfig.cmake
+Symlinking /home/tranhieu/catkin_workspace/devel/share/carrot_planner/cmake/carrot_plannerConfig-version.cmake

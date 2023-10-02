@@ -1,0 +1,3 @@
+Symlinking /home/tranhieu/catkin_workspace/devel/lib/pkgconfig/my_robot.pc
+Symlinking /home/tranhieu/catkin_workspace/devel/share/my_robot/cmake/my_robotConfig.cmake
+Symlinking /home/tranhieu/catkin_workspace/devel/share/my_robot/cmake/my_robotConfig-version.cmake

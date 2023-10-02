@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/catkin_test/install
+
+Name: mini_map_node
+Description: Description of mini_map_node
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

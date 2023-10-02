@@ -1,0 +1,4 @@
+Symlinking /home/tranhieu/catkin_workspace/devel/lib/librotate_recovery.so
+Symlinking /home/tranhieu/catkin_workspace/devel/lib/pkgconfig/rotate_recovery.pc
+Symlinking /home/tranhieu/catkin_workspace/devel/share/rotate_recovery/cmake/rotate_recoveryConfig-version.cmake
+Symlinking /home/tranhieu/catkin_workspace/devel/share/rotate_recovery/cmake/rotate_recoveryConfig.cmake

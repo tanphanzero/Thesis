@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<launch>
+ <arg name="map_file" default="/home/tanphan/catkin_stm32_ws/src/alpha/params/map.yaml"/>
+ <node pkg="map_server" type="map_server" name="map_server" args="$(arg map_file)">
+  <param name="frame_id" value="map"/>
+  <param name="yaml_filename" value="$(arg map_file)"/>
+ </node>
+</launch>

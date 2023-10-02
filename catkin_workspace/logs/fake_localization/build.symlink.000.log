@@ -1,0 +1,4 @@
+Symlinking /home/tranhieu/catkin_workspace/devel/lib/fake_localization/fake_localization
+Symlinking /home/tranhieu/catkin_workspace/devel/lib/pkgconfig/fake_localization.pc
+Symlinking /home/tranhieu/catkin_workspace/devel/share/fake_localization/cmake/fake_localizationConfig-version.cmake
+Symlinking /home/tranhieu/catkin_workspace/devel/share/fake_localization/cmake/fake_localizationConfig.cmake

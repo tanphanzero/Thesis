@@ -1,0 +1,15 @@
+<launch>  
+
+  <node pkg="my_robot" type="serial_process_copy.py" name="serial_process" output="screen" />
+  
+  <node pkg="tf" type="static_transform_publisher" name="imu_tf" args="0 0 0 0 0 0 /base_link /imu_frame 100" />
+
+  <node pkg="tf" type="static_transform_publisher" name="laser_tf" args="0 0 0 0 0 0 /base_link /laser 100" />
+  
+  <node pkg="tf" type="static_transform_publisher" name="laser_tf1" args="0 0 0 0 0 0 /base_link /laser_frame 100" />
+ 
+  <node pkg="tf" type="static_transform_publisher" name="imu_tf2" args="0 0 0 0 0 0 /base_link /camera_imu_optical_frame 100" />
+  
+  <node pkg="rviz" type="rviz" name="rviz" args="-d $(find my_robot)/rviz/teb.rviz" />
+
+</launch>

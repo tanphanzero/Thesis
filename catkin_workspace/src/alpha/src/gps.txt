@@ -1,0 +1,20 @@
+from geomag.models import WMM2020
+import rospy
+from std_msgs.msg import Float64
+
+rospy.init_node('declination_publisher')
+pub = rospy.Publisher('/magnetic_declination', Float64, queue_size=10)
+rate = rospy.Rate(10)
+
+while not rospy.is_shutdown():
+# Tính magnetic declination tại một vị trí cụ thể
+lat = 47.603
+lon = -122.33
+alt = 0
+date = WMM2020.epoch
+mag = WMM2020().geomagnetic_field(lat, lon, alt, date)
+declination = mag.declination
+    # Publish giá trị declination lên topic /magnetic_declination
+    pub.publish(declination)
+
+    rate.sleep()
